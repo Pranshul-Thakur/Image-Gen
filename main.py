@@ -16,7 +16,7 @@ import time
 import os
 from pathlib import Path
 
-app = FastAPI(title="ComfyUI Image Generation API", version="1.0.0")
+app = FastAPI(title="API", version="1.0.0")
 
 class ImageGenerationRequest(BaseModel):
     prompt: str
